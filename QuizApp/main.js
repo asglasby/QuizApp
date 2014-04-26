@@ -1,12 +1,11 @@
 ﻿"use strict"
-//to access the item for an object call the array and key name instead of the index#
 
-// Declare our Quiz Questions Object
+
 var myAnswer;
 var score = 0;
 var questionNumber = 0;
-//var yourAnswer = "incorrect";
 
+// Declare our Quiz Questions Object
 var quizQuestions = [{
     Question: "How many sqft in an acre?",
     answerChoice: [43500, 42500, 48600, 43560],
@@ -56,7 +55,6 @@ var displayQuestion = function () {
               + '<span id="c" onclick="answer3Clicked();">' + quizQuestions[questionNumber].answerChoice[2] + '</span><br>'
               + '<span id="d" onclick="answer4Clicked();">' + quizQuestions[questionNumber].answerChoice[3] + '</span><br>';
     }
-   // alert(myAnswer)
     questionNumber = questionNumber + 1;
 };
 
