@@ -1,0 +1,35 @@
+﻿/* Stylesheet for Quizzing: A simple JS quiz app */
+body {
+    background-color: #00aedb;
+    color: #FFFFFF;
+}
+h2 {
+    color: #FFFFFF;
+    display: none;
+}
+#a0, #a1, #a2, #a3 {
+    display: none;
+}
+#backbutton {
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    background-color: #8ec127;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    float: left;
+    margin-right: 5px;
+    display: none;
+}
+#nextbutton {
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    background-color: #8ec127;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    position: relative;
+    float: left;
+}
