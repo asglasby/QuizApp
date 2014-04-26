@@ -22,7 +22,7 @@ var quizQuestions = [{
     answer: "Red, White, and Blue"
 },
 {
-    Question: "How many types of chees are there?",
+    Question: "How many types of cheeses are there?",
     answerChoice: [10, 5, 20, "none of these answers"],
     answer: "none of these answers"
 }
